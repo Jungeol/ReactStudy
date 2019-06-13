@@ -26,8 +26,8 @@
 Proptypes 로 타입 체크 (prop-types 라이브러리)
 개발 모드에서만 체크함(성능 상의 이유)
 >- 치명적인 버그 방지, 품질/가독성 개선
->- 사용 예
   --------------------------------------------------------------------
+  사용 예
   ```{.javascript}
     import PropTypes from 'prop-types';
     class MyComponent extends React.Component { ... }
@@ -55,8 +55,8 @@ Proptypes 로 타입 체크 (prop-types 라이브러리)
 >- try/catch 와의 차이?
   -- try/catch: 명령형 코드에서만 동작
   -- 에러 경계는 선언적 특정 보존에 유리
->- 에러 경계 사용 예
   --------------------------------------------------------------------
+  에러 경계 사용 예
   ```{.javascript}
   // Error Boundary 정의
   class ErrorBoundary extends React.Component {
