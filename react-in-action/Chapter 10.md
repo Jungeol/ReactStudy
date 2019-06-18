@@ -87,5 +87,17 @@ import {combineReducers} from 'redux';
 const rootReducer = combineReducers({});
 export default rootReducer;
 </code></pre>        
+  3. getState 함수는 리덕스 스토어에 저장된 상태의 스냅샷을 가져오는 함수
+    4. dispatch 리덕스 스토어에 액션을 보내는 함수이다. dispatch 메서드를 호출할 때 액션 생성자가 리턴하는 액션을 전달하면 됨. dispath는 리덕스에서 상태의 변경을 시작하는 유일한방법
+
+>>> 미들웨어
+
+    1. 리덕스는 자체적으로 비동기 액션을 지원하지 않는다. redux-thunk라는 라이브러리를 이용하여 비동기 액션을 지원. redux-thunk는 미들웨어 라이브러리.
+    2. 리덕스 미들웨어는 '액션을 보내는 지점과 액션이 리듀서에 도착하는 순간 사이에 위치하는 서드파티 확장 기능' 리듀서가 액션을 처리하기전에 액션을 조작할수 있는 기회
+    applyMiddleware()
+    3. redux-thunk 로 비동기액션생성자를 만들수있게됨. 액션자체는 동기, Promise객체를 평가할수있음. 리듀서에 비동기식으로 전달
+
+
+## 리덕스를 사용해야하는가 ? 하지 않을 것인가?
 
 
