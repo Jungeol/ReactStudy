@@ -87,7 +87,7 @@ import {combineReducers} from 'redux';
 const rootReducer = combineReducers({});
 export default rootReducer;
 </code></pre>        
-  3. getState 함수는 리덕스 스토어에 저장된 상태의 스냅샷을 가져오는 함수
+    3. getState 함수는 리덕스 스토어에 저장된 상태의 스냅샷을 가져오는 함수
     4. dispatch 리덕스 스토어에 액션을 보내는 함수이다. dispatch 메서드를 호출할 때 액션 생성자가 리턴하는 액션을 전달하면 됨. dispath는 리덕스에서 상태의 변경을 시작하는 유일한방법
 
 >>> 미들웨어
