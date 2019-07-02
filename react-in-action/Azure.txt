@@ -1,0 +1,74 @@
+A. azure 조사 내용
+
+  가) 간단 정리
+    MS 제품들 활용하기 용이
+    -> 그게 아니라면 굳이?
+    aws에 비해 기능이 적다
+    리눅스 지원함
+
+  나) 비용정리
+    1) 공식사이트
+      https://azure.microsoft.com/ko-kr/pricing/
+    
+    2) 체험용
+      1년 구독 무료(22만 크레딧)
+    
+    3) 학생용(azure for students)
+      https://azure.microsoft.com/ko-kr/free/students/#free-products-section
+      
+      100$ 크레딧 제공
+      
+      일부 제품 무료 제공
+        SQL Server 2017 Developer Edition
+        Virtual Machines
+        SQL Server
+        Visual Studio
+        ...
+      
+      FAQ
+        https://azure.microsoft.com/ko-kr/free/students-starter-faq/
+
+  다) azure 좋은점 얘기하는 글(SaaS, PaaS, IaaS 개념설명도)
+    (대충 애저로 IaaS 쉽게 구축 할 수 있다는 글)
+    https://ppss.kr/archives/119004
+
+-----------------------
+B. 비교
+
+  가) 클라우드 서비스 비교
+    1) 영어, 주요 클라우드 엄청 세세하게 비교해 놓음
+      http://comparecloud.in/
+    
+    2) 홈그라운드에서 Azure vs AWS 비교..
+      https://docs.microsoft.com/ko-kr/azure/architecture/aws-professional/services
+      
+    3) 그 외 비교 글
+    
+      https://heyhwa.tistory.com/42
+      비용적인 부분 위주
+        https://andrewjk.me/ko/161/      
+      국내 업체 정리
+        https://blog.lael.be/post/44
+      
+    4) 요약
+      AWS
+        기능 많음, 유연함 
+        잘쓰면 좋음?
+      Azure
+        기존 거 클라우드로 전환할때 이점
+        MS 제품 지원 용이
+      GCP
+        구글..
+        
+
+-----------------------
+C. 그 외 (안봐도 됨)
+
+  클라우드 애플리케이션 개발 따라해보기
+    https://developer.ibm.com/kr/cloud/cloud-foundry/2017/04/07/develop-cloud-app-step1/
+
+  The 12-Factors App
+    https://12factor.net/ko/
+
+  ms azure로 갈아타기
+    https://chancethecoder.tistory.com/16?category=764635
